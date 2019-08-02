@@ -71,3 +71,20 @@ class Block_2nd extends HTMLElement {
   }
 }
 customElements.define("block-2nd", Block_2nd)
+
+class Block_map extends HTMLElement {
+  constructor() {
+    super();
+    this.shadow = this.attachShadow({ mode: "closed" })
+  }
+  static get observedAttributes() {
+    return ["src"];
+  }
+  attributeChangedCallback(attrName, oldVal, newVal) {
+    if (!newVal) return;
+    fetch(newVal)
+      .then(response => response.text())
+      .then(response => (this.shadow.innerHTML = response))
+  }
+}
+customElements.define("block-map", Block_map)
