@@ -30,32 +30,6 @@ a {
 	max-width: 1920px;
 }
 
-.block-1st {
-	height: 80%;
-	background-image: url(../img/city1.png);
-	padding-top: 5%;
-}
-
-.represent {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.represent .logo {
-	margin-bottom: 50px;
-}
-
-.main-headline {
-	font-size: 50pt;
-	font-weight: 700;
-}
-
-.sub-headline {
-	font-size: 50pt;
-	font-weight: 500;
-}
-
 .block-media-wrapper {	
 	background-color: white;
 	padding-top: 8%;
