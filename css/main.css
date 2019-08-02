@@ -1,0 +1,227 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	background-color: rgba(95, 193, 139);
+	color: white;
+}
+
+h2 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.wrapper {
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1920px;
+}
+
+.header {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+#nav .main-nav {
+	all: unset;
+	margin: 0 20%;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.item {
+	padding: 20px;
+}
+
+.item a {
+	padding: 20px;
+}
+
+.item a:hover {
+	background-color: rgba(0, 0, 0);
+	transition-timing-function: ease-out;
+	transition: 1s;
+}
+
+.block-1st {
+	height: 80%;
+	background-image: url(../img/city1.png);
+	padding-top: 5%;
+}
+
+.represent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.represent .logo {
+	margin-bottom: 50px;
+}
+
+.main-headline {
+	font-size: 50pt;
+	font-weight: 700;
+}
+
+.sub-headline {
+	font-size: 50pt;
+	font-weight: 500;
+}
+
+.block-media-wrapper {	
+	background-color: white;
+	padding-top: 8%;
+	padding-bottom: 5%;
+}
+
+.block-media {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.documents {
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	color: black;
+}
+
+.photos {
+	width: 40%;
+	display: flex;
+	justify-content: space-between;
+	color: black;
+}
+
+.documents img {
+	align-self: center
+}
+
+.documents .sub-text {
+	margin-left: 10%;
+}
+
+.documents .sub-text h3 {
+	font-size: 28pt;
+}
+
+.photos .sub-text {
+	margin-left: 10%;
+}
+
+.photos .sub-text h3 {
+	font-size: 28pt;
+}
+
+.photos img {
+	align-self: center
+}
+
+.block-2nd {
+	background: linear-gradient(-10deg, rgb(68, 163, 111) 30%, rgb(95, 193, 139) 50%);
+	padding-top: 80px;
+	width: 100%;
+}
+
+.description-1st-wrapper {
+	background-image: url(../img/tablet-cellphone.png);
+	background-position: 30% 0;
+	background-repeat: no-repeat;
+	padding-top: 180px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.description-1st {
+	width: 70%;
+	margin: 0 auto;	
+	text-align: left;
+}
+
+.description-1st h3 {
+	font-size: 40pt;
+	font-weight: 500;	
+	text-align: center;
+}
+
+.description-2nd-wrapper {		
+	//background-color: rgb(68, 163, 111);
+	position: relative;
+	padding: 20% 0 10%;	
+}
+
+.description-2nd {
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.description-2nd h3 {
+	margin: 0;
+	font-size: 40pt;
+	font-weight: 500;	
+	text-align: center;
+}
+
+.description-2nd .img-container {
+	width: 40%;
+}
+
+.description-2nd .img-container img {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.description-2nd .desc {
+	width: 55%;
+}
+
+.description-2nd .desc  h3{
+	text-align: left;
+}
+
+.description-2nd .desc .download {
+	display: inline-block;
+	margin: 20px 0 0;
+	border: 4px solid white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 28pt;
+	font-weight: 500;
+}
+
+.block-map {
+	height: 70%;
+}
+
+.footer {
+	background-color: rgb(68, 163, 111);
+	text-align: center;
+	padding: 10px 0;
+}
+
+.footer p {
+	margin: 0;
+}
