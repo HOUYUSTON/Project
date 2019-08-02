@@ -19,4 +19,4 @@ class Navigation extends HTMLElement {
   }
 }
 customElements.define("navigation-bar", Navigation);
-document.body.appendChild(document.createElement("navigation-bar"));
+//document.body.appendChild(document.createElement("navigation-bar"));
