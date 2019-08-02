@@ -1,8 +1,8 @@
-navigation-bar .header {
+.header {
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
-navigation-bar #nav .main-nav {
+#nav .main-nav {
 	all: unset;
 	margin: 0 20%;
 	list-style: none;
@@ -11,15 +11,15 @@ navigation-bar #nav .main-nav {
 	justify-content: space-between;
 }
 
-navigation-bar .item {
+.item {
 	padding: 20px;
 }
 
-navigation-bar .item a {
+.item a {
 	padding: 20px;
 }
 
-navigation-bar .item a:hover {
+.item a:hover {
 	background-color: rgba(0, 0, 0);
 	transition-timing-function: ease-out;
 	transition: 1s;
