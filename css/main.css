@@ -30,33 +30,6 @@ a {
 	max-width: 1920px;
 }
 
-.header {
-	background-color: rgba(0, 0, 0, 0.9);
-}
-
-#nav .main-nav {
-	all: unset;
-	margin: 0 20%;
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.item {
-	padding: 20px;
-}
-
-.item a {
-	padding: 20px;
-}
-
-.item a:hover {
-	background-color: rgba(0, 0, 0);
-	transition-timing-function: ease-out;
-	transition: 1s;
-}
-
 .block-1st {
 	height: 80%;
 	background-image: url(../img/city1.png);
