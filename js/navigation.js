@@ -5,6 +5,6 @@ function clickHandler (event) {
 	newNode.src = "block-map.html"
 	let oldNode = document.getElementById("media")
 	let parentNode = oldNode.parentNode
-	parentNode.replaceChild(oldNode, newNode)
+	parentNode.replaceChild(newNode, oldNode)
 }
 reg.onclick = clickHandler
