@@ -15,7 +15,7 @@ class Navigation extends HTMLElement {
     if (!newVal) return
     fetch(newVal)
       .then(response => response.text())
-      .then(response => (this.shadow.innerHTML = response))
+      .then(response => (this.shadowRoot.innerHTML = response))
   }
 }
 customElements.define("navigation-bar", Navigation)
@@ -33,7 +33,7 @@ class Block_1st extends HTMLElement {
     if (!newVal) return;
     fetch(newVal)
       .then(response => response.text())
-      .then(response => (this.shadow.innerHTML = response))
+      .then(response => (this.shadowRoot.innerHTML = response))
   }
 }
 customElements.define("block-1st", Block_1st)
@@ -50,7 +50,7 @@ class Block_media extends HTMLElement {
     if (!newVal) return;
     fetch(newVal)
       .then(response => response.text())
-      .then(response => (this.shadow.innerHTML = response))
+      .then(response => (this.shadowRoot.innerHTML = response))
   }
 }
 customElements.define("block-media", Block_media)
@@ -67,7 +67,7 @@ class Block_2nd extends HTMLElement {
     if (!newVal) return;
     fetch(newVal)
       .then(response => response.text())
-      .then(response => (this.shadow.innerHTML = response))
+      .then(response => (this.shadowRoot.innerHTML = response))
   }
 }
 customElements.define("block-2nd", Block_2nd)
@@ -84,7 +84,7 @@ class Block_map extends HTMLElement {
     if (!newVal) return;
     fetch(newVal)
       .then(response => response.text())
-      .then(response => (this.shadow.innerHTML = response))
+      .then(response => (this.shadowRoot.innerHTML = response))
   }
 }
 customElements.define("block-map", Block_map)
