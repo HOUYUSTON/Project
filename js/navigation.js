@@ -1,4 +1,4 @@
-document.onload = const root = document.getElementById("navigation").shadow
+const root = document.getElementById("navigation").shadow
 const reg = root.getElementById("register")
 reg.style.color = "red"
 reg.onclick = function (event) {
