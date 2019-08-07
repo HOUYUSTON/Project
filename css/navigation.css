@@ -26,6 +26,7 @@ a {
 }
 
 .item a {
+	white-space: nowrap;
 	padding: 20px;
 }
 
