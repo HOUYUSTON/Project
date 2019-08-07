@@ -1,7 +1,7 @@
 class Navigation extends HTMLElement {
   constructor() {
     super();
-    this.shadow = this.attachShadow({ mode: "closed" })
+    this.attachShadow({ mode: "open" })
   }
   connectedCallback() {
     // fetch("chank.html")
@@ -24,7 +24,7 @@ customElements.define("navigation-bar", Navigation)
 class Block_1st extends HTMLElement {
   constructor() {
     super();
-    this.shadow = this.attachShadow({ mode: "closed" })
+    this.attachShadow({ mode: "open" })
   }
   static get observedAttributes() {
     return ["src"];
@@ -41,7 +41,7 @@ customElements.define("block-1st", Block_1st)
 class Block_media extends HTMLElement {
   constructor() {
     super();
-    this.shadow = this.attachShadow({ mode: "closed" })
+    this.attachShadow({ mode: "open" })
   }
   static get observedAttributes() {
     return ["src"];
@@ -58,7 +58,7 @@ customElements.define("block-media", Block_media)
 class Block_2nd extends HTMLElement {
   constructor() {
     super();
-    this.shadow = this.attachShadow({ mode: "closed" })
+    this.attachShadow({ mode: "open" })
   }
   static get observedAttributes() {
     return ["src"];
@@ -75,7 +75,7 @@ customElements.define("block-2nd", Block_2nd)
 class Block_map extends HTMLElement {
   constructor() {
     super();
-    this.shadow = this.attachShadow({ mode: "closed" })
+    this.attachShadow({ mode: "open" })
   }
   static get observedAttributes() {
     return ["src"];
