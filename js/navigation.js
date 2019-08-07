@@ -1,4 +1,4 @@
-const root = document.getElementById("navigation").shadowRoot
+const root = document.getElementById("navigation").shadow
 const reg = root.getElementById("reg")
 reg.style.color = "red"
 reg.onclick = function (event) {
