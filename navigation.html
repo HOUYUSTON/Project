@@ -1,4 +1,13 @@
 <link rel="stylesheet" type="text/css" href="css/navigation.css">
+<script>
+	// const root = document.getElementById("navigation").shadowRoot
+	// const reg = root.getElementById("register")
+	const reg = document.getElementById("register")
+	reg.style.color = "red"
+	reg.onclick = function (event) {
+		document.getElementById("media") = document.createElement("block-map").src = "block-map.html"
+	}
+</script>
 <header class="header">
 	<nav id="nav">
 		<ul class="main-nav">
