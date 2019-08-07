@@ -3,6 +3,8 @@ const reg = root.getElementById("register")
 function clickHandler (event) {
 	let newNode = document.createElement("block-map")
 	newNode.src = "block-map.html"
-	document.body.replaceChild(document.getElementById("media"), newNode)
+	let oldNode = document.getElementById("media")
+	let parentNode = oldNode.parentNode
+	parentNode.replaceChild(oldNode, newNode)
 }
 reg.onclick = clickHandler
